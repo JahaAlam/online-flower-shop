@@ -43,10 +43,12 @@ header{
     padding-top: 30px;
 }
 .btn-shop{
+
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 43px;
+    padding: 10px 20px;
     margin-top: 40px;
+
 }
 .banner-heading a{ 
     color: #FFF;
@@ -189,16 +191,23 @@ header{
     align-items:center;
     margin: 0px 240px;
 }
+
+/*   latest section style*/
 .latest-deeal-container{
+    display: flex;
+    align-items: center;
     width: auto;
-    height: 570px;
-    background-image: url('../online-flower-shop/Flower\ Asset/url');
-    background-color: #E55473;
+    background-color: #FFF;
     text-align: center;
+    margin-top: 10vh;
 }
 .latest-deal{
-    background-image:
-}
+    margin: 0px 240px;
+    width: 1440px;
+    height: 449px;
+    background-image:url('Rectangle\ 9.png');
+    background-repeat:no-repeat;
+    }
 .latest-deal-title{
   padding-top: 150px;
     color: #272727;
@@ -224,14 +233,44 @@ header{
 }
 .latest-deal  a{
     color: #FFF;
-    text-decoration: none;
-    
-}
-.text{
-    padding: 20px 20px;
+    text-decoration: none;  
 }
 
+/*----footer ---style*/
 
+.footer-container{
+    width: auto;
+    height: 40vh;
+    background-color:#111010;
+    margin-top: 10vh;
+}
+.footer{
+    text-align: center;
+    padding-top: 130px;
+}
+.footer-title span{
+    color: #E55473;
+}
+.footer-title{
+    color:white;
+    font-size: 48px;;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.footer-details{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.copy-text{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    }
 
 
 
