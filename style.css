@@ -163,7 +163,7 @@ header{
 
 .social-media{
     width: auto;
-    height: 4867px;
+    height: 570px;
     background-color: #FFF;
 }
 .media-title{
@@ -189,5 +189,50 @@ header{
     align-items:center;
     margin: 0px 240px;
 }
+.latest-deeal-container{
+    width: auto;
+    height: 570px;
+    background-image: url('../online-flower-shop/Flower\ Asset/url');
+    background-color: #E55473;
+    text-align: center;
+}
+.latest-deal{
+    background-image:
+}
+.latest-deal-title{
+  padding-top: 150px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.coupon-detail{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 10px;
+
+}
+.input-text{
+    width: 40%;
+    height: 65px;
+    border: #FFF;
+    border-radius: 10px;
+    margin: 10px;
+}
+.latest-deal  a{
+    color: #FFF;
+    text-decoration: none;
+    
+}
+.text{
+    padding: 20px 20px;
+}
+
+
+
+
 
 
