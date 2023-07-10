@@ -1,0 +1,57 @@
+/* --------common style------*/
+*{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*----Header Style-----*/
+
+header{
+    width: auto;
+    height:850px;
+    background-color:rgba(229, 84, 115, 0.10);
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 240px;
+    gap: 100px;
+}
+.heading-title{
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+}
+.heading-description{
+    color: rgba(39, 39, 39, 0.60);;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 30px;
+}
+.btn-shop{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    margin-top: 40px;
+}
+.shopNow{
+    color: #FFF;
+    font-size: 20px;
+}
+.banner-photo{
+    display: block;
+}
+.Header-photo{
+    padding-top: 50px;
+}
+
+
