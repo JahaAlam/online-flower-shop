@@ -9,6 +9,11 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+.flowers-tree{
+    width: 310px;
+    height: 428px;
+    padding: 110px 80px 0px 75px;
+}
 
 
 /*----Header Style-----*/
@@ -43,9 +48,9 @@ header{
     padding: 20px 43px;
     margin-top: 40px;
 }
-.shopNow{
+.banner-heading a{ 
     color: #FFF;
-    font-size: 20px;
+    text-decoration: none;
 }
 .banner-photo{
     display: block;
@@ -53,5 +58,105 @@ header{
 .Header-photo{
     padding-top: 50px;
 }
+
+
+/*----main Style----*/
+
+
+.feature{
+    text-align: center;
+    background-color: #FFF;
+    margin-top: 200px;
+}
+.feature-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.feature-description{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.features-flower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 240px;
+}
+.red-flowers-box{
+    width: 500px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 20px;
+
+}
+
+.pink-flowers-box{
+    width: 500px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.yellow-flowers-box{
+    width: 500px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin-left: 20px;
+}
+.tree-text, a{
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-bottom: 100px;
+}
+
+.deal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 425px;
+    padding-right: 430px;
+    width: auto;
+    height: 620px;
+    background-color:rgba(229, 84, 115, 0.05) ;
+    margin-top: 200px;
+}
+.hot-deal{
+    text-align: center;
+}
+.deal-title{
+    color: #272727;
+    font-size: 40px;;
+    font-weight: 800;
+}
+.deal-title > span{
+   color: #E55473;
+}
+.deal-details{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hot-deal a{
+    color: #FFF;
+    text-decoration: none;
+}
+
 
 
