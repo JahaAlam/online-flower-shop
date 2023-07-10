@@ -1,6 +1,7 @@
 /* --------common style------*/
 *{
     margin: 0px;
+    padding: 0px;
 }
 a{
     text-decoration: none;
@@ -68,7 +69,7 @@ header{
 .feature{
     text-align: center;
     background-color: #FFF;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .feature-title{
     color: #272727;
@@ -87,7 +88,7 @@ header{
 }
 .features-flower{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 0px 240px;
 }
@@ -96,8 +97,6 @@ header{
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    margin-right: 20px;
-
 }
 
 .pink-flowers-box{
@@ -105,6 +104,7 @@ header{
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
+    margin: 0px 20px;
 }
 
 .yellow-flowers-box{
@@ -112,7 +112,6 @@ header{
     height: 538px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    margin-left: 20px;
 }
 .tree-text, a{
     margin-top: 20px;
@@ -240,7 +239,7 @@ header{
 
 .footer-container{
     width: auto;
-    height: 40vh;
+    height: 55vh;
     background-color:#111010;
     margin-top: 10vh;
 }
@@ -270,6 +269,7 @@ header{
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 40px;
     }
 
 
