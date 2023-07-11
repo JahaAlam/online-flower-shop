@@ -125,6 +125,50 @@ header{
     margin-bottom: 100px;
 }
 
+/*-----bonus--------*/
+.bonus-section{
+    text-align: center;
+    margin-top: 200px;
+}
+.section-title{
+    color: #ee4949;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom:70px;
+
+}
+.flowers-collection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+    gap: 20px;
+}
+/*
+.collection-gallery{
+    max-width: 450px;
+    max-height: 450px;
+    background-color: #FFF;
+
+}
+.birthday-photo{
+    position: relative;
+    
+}
+
+.birthday-text{
+    position: absolute;
+    text-align: center;
+    color: #ee4949;
+
+}
+.birthday-photo{
+    border: 2px;
+
+
+}
+*/
 /*-------Deal section Styles-----*/
 
 .deal{
@@ -180,6 +224,9 @@ header{
     margin-bottom: 20px;
 
 }
+.media-title:hover{
+    cursor: pointer;
+}
 .social-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -197,6 +244,7 @@ header{
 }
 .galary:hover{
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 /*   latest section style*/
