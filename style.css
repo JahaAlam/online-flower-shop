@@ -125,7 +125,7 @@ header{
     margin-bottom: 100px;
 }
 
-/*-----bonus--------*/
+/*-----bonus-  styles-------*/
 .bonus-section{
     text-align: center;
     margin-top: 200px;
@@ -163,6 +163,10 @@ header{
     font-size: 26px;
     font-weight: bold;
 }
+.birthday-text:hover{
+    transform: rotate(45deg);
+    cursor: pointer;
+}
 .anniversary{
     position: absolute;
     top: 200px;
@@ -171,6 +175,10 @@ header{
     color:#E55473;
     font-size: 26px;
     font-weight: bold;
+}
+.anniversary:hover{
+    display: none;
+    cursor:pointer;
 }
 .wish{
     position: absolute;
@@ -182,30 +190,11 @@ header{
     font-weight: bold;
 }
 
-/*
-.collection-gallery{
-    max-width: 450px;
-    max-height: 450px;
-    background-color: #FFF;
-
-}
-.birthday-photo{
-    position: relative;
-    
+ .wish:hover{
+    transform: scale(1.5);
+    cursor: pointer;
 }
 
-.birthday-text{
-    position: absolute;
-    text-align: center;
-    color: #ee4949;
-
-}
-.birthday-photo{
-    border: 2px;
-
-
-}
-*/
 /*-------Deal section Styles-----*/
 
 .deal{
