@@ -129,22 +129,59 @@ header{
 .bonus-section{
     text-align: center;
     margin-top: 200px;
+    background-color: aliceblue;
+}
+.flowera-promotion{
+    width: auto;
+    margin-top: 80px;
 }
 .section-title{
-    color: #ee4949;
+    color: black;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    margin-bottom:70px;
+    padding-top: 80px;
 
 }
 .flowers-collection{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 200px;
-    gap: 20px;
+    margin: 50px 10px;
+    gap:10px;
 }
+.img{
+    width: 450px;
+    height: 450px;
+    position: relative;
+}
+.birthday-text{
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    color: #071de6;
+    font-size: 26px;
+    font-weight: bold;
+}
+.anniversary{
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    text-align: center;
+    color:#E55473;
+    font-size: 26px;
+    font-weight: bold;
+}
+.wish{
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    text-align: center;
+    color:#06f556;
+    font-size: 26px;
+    font-weight: bold;
+}
+
 /*
 .collection-gallery{
     max-width: 450px;
