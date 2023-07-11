@@ -43,7 +43,7 @@ header{
     padding-top: 30px;
 }
 .btn-shop{
-
+    border: none;
     border-radius: 8px;
     background: #E55473;
     padding: 10px 20px;
@@ -145,10 +145,10 @@ header{
 }
 .flowers-collection{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 50px 10px;
-    gap:10px;
+    margin: 50px 5px;
+    gap:px;
 }
 .img{
     width: 450px;
@@ -204,10 +204,10 @@ header{
     padding-left: 425px;
     padding-right: 430px;
     width: auto;
-    margin-bottom: 50px;
     height: 620px;
     background-color:rgba(229, 84, 115, 0.05) ;
     margin-top: 200px;
+    margin-bottom: 50px;
 }
 .hot-deal{
     text-align: center;
@@ -284,7 +284,7 @@ header{
 }
 .latest-deal{
     margin: 0px 240px;
-    width: 1440px;
+    width: 1450px;
     height: 449px;
     background-image:url('Rectangle\ 9.png');
     background-repeat:no-repeat;
