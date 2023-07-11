@@ -289,6 +289,10 @@ header{
     background-image:url('Rectangle\ 9.png');
     background-repeat:no-repeat;
     }
+
+ .input-text{
+     padding-left: 10px;
+    }
 .latest-deal-title{
   padding-top: 150px;
     color: #272727;
